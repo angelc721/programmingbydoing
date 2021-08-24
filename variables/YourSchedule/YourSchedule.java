@@ -1,3 +1,4 @@
+//Variables Your Schedule 15 pts Angel Chuang
 public class YourSchedule
 {
     public static void main( String[] args)
