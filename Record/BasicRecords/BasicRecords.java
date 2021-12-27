@@ -35,12 +35,15 @@ public class BasicRecords
 		three.grade = keyboard.nextInt();
         System.out.print("Enter the third student's average: ");
         three.average = keyboard.nextDouble();
-        System.out.println(; 
+        System.out.println(); 
 
         System.out.println("The names are: "+one.name+" "+two.name+" "+three.name);
 		System.out.println("The grades are: "+one.grade+" "+two.grade+" "+three.grade);
-		System.out.println("The averages are: "+one.avg+" "+two.avg+" "+s_three.avg);
+		System.out.println("The averages are: "+one.average+" "+two.average+" "+three.average);
 		System.out.println();
-        System.out.println("")
+        double total = one.average + two.average + three.average;
+        double total_avg = total/3.0; 
+
+        System.out.println("The average for the three students is: " +total_avg); 
     }
 }
